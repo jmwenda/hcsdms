@@ -1,16 +1,26 @@
+.sf-menu {
+z-index: 497;
+}
 .sf-menu.sf-style-blue {
   float: left;
-  margin-bottom: 1em;
+  /*margin-bottom: 1em;*/
   padding: 0;
+
 }
 .sf-menu.sf-style-blue.sf-navbar {
   width: 100%;
 }
 .sf-menu.sf-style-blue ul {
-  padding-left: 0;
+  	background: #fff;
+	border: 12px solid #3FA9F5;
+        width:97.5% !important;
+
+
 }
+
+
 .sf-menu.sf-style-blue a {
-  border: 1px outset #003973;
+  /*border: 1px outset #003973;*/
   color: #ffffff;
   padding: 0.75em 1em;
 }
@@ -34,13 +44,55 @@
 }
 .sf-menu.sf-style-blue li,
 .sf-menu.sf-style-blue.sf-navbar {
-  background: #095cb1;
+  /*background: #095cb1;*/
+   background: #CC0000;
+
 }
 .sf-menu.sf-style-blue li li {
-  background: #0151a4;
+  background: none;
+  background: url(images/sprite_base.png) no-repeat;
+}
+.sf-menu.sf-style-blue ul li {
+  background: white;
+	float: left;
+	margin: 0;
+	padding: 0;
+	font-size: 0.8em;
+        display: inline;
+        width:25% !important;
+
+
+}
+.sf-hidden
+{
+width: 900px;
+}
+.sf-menu.sf-horizontal.sf-shadow ul,
+.sf-menu.sf-vertical.sf-shadow ul,
+.sf-menu.sf-navbar.sf-shadow ul ul {
+  padding: 0 8px 9px 0 !important;
+  -webkit-border-top-right-radius: 8px;
+  -webkit-border-bottom-left-radius: 8px;
+  -moz-border-radius-topright: 8px;
+  -moz-border-radius-bottomleft: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
 }
 .sf-menu.sf-style-blue li li li {
   background: #00478f;
+}
+
+.sf-menu.sf-style-blue ul li:hover {
+ background: none;
+}
+
+/*
+.sf-menu.sf-style-blue ul li ul a:focus,
+.sf-menu.sf-style-blue ul li ul a:hover,
+.sf-menu.sf-style-blue ul li ul a.active,
+{
+
+  color:none;
 }
 .sf-menu.sf-style-blue li:hover,
 .sf-menu.sf-style-blue li.sfHover,
@@ -48,12 +100,14 @@
 .sf-menu.sf-style-blue a:focus,
 .sf-menu.sf-style-blue a:hover,
 .sf-menu.sf-style-blue a:active,
-.sf-menu.sf-style-blue.sf-navbar li li {
-  background: #3270c5;
-  color: #ffea00;
+.sf-menu.sf-style-blue.sf-navbar li  {
+
+  background: #3FA9F5;
+  color:none;
 }
+*/
 .sf-menu.sf-style-blue.sf-navbar li ul {
-  background-color: #3270c5;
+  /*background-color: #3270c5;*/
 }
 .sf-menu.sf-style-blue.sf-navbar li ul li ul {
   background-color: transparent;

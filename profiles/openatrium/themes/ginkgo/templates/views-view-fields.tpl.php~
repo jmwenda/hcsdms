@@ -1,0 +1,13 @@
+<?php if ($enable_grouping): ?><div class='grouped clear-block <?php print $classes ?>'><?php endif; ?>
+
+<?php foreach ($grouped as $group => $fields): ?>
+
+  <?php if ($enable_grouping): ?><div class='grouped-<?php print $group ?> clear-block'><?php endif; ?>
+
+
+
+  <?php if ($enable_grouping): ?></div><?php endif; ?>
+
+<?php endforeach; ?>
+
+<?php if ($enable_grouping): ?></div><?php endif; ?>

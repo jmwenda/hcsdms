@@ -47,8 +47,8 @@ function _atrium_block_welcome_admin() {
       $admin = t('You can remove this block by !customize_dashboard.', array('!customize_dashboard' => $link));
     }
 
-    $block['content'] = theme('atrium_welcome', $video, $links, $admin);
-    return $block;
+    //$block['content'] = theme('atrium_welcome', $video, $links, $admin);
+    //return $block;
   }
 }
 
